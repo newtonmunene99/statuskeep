@@ -19,6 +19,15 @@ Open Run/Debug tab in VS Code and run desired flavor
 | Development | `flutter run --debug -t lib/main_dev.dart --flavor dev`     |
 | Release     | `flutter run --release -t lib/main_prod.dart --flavor prod` |
 
+## Building the app
+
+### On the terminal
+
+| Environment | Command                                                     |
+| ----------- | ----------------------------------------------------------- |
+| Development | `flutter build [TARGET_OUTPUT] -t lib/main_dev.dart --flavor dev`     |
+| Release     | `flutter build [TARGET_OUTPUT] -t lib/main_prod.dart --flavor prod` |
+
 ## App Icon
 
 1. Replace `assets/icons/icon.jpg` with your own.
