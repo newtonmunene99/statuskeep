@@ -28,6 +28,6 @@ jobs:
       with:
         channel: 'stable'
     - run: flutter pub get
-    - run: flutter build apk -t lib/main_dev.dart --flavor dev
+    - run: flutter build apk --debug -t lib/main_dev.dart --flavor dev
 
     
